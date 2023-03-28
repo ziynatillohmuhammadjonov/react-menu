@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Links() {
   return (
     <div className="btn-container">
-      <Link to={"/allmenu"} className="btn">
+      <Link to={"/"} className="btn">
         all
       </Link>
       <Link to={"/breakfast"} className="btn">

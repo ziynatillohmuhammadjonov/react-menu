@@ -19,7 +19,7 @@ function App() {
         <Navbars />
         <Buttons />
         <Routes>
-          <Route path="/allmenu" element={<AllMenu />} />
+          <Route path="/" element={<AllMenu />} />
           <Route path="/breakfast" element={<Breakfast />} />
           <Route path="/lunch" element={<Lunch />} />
           <Route path="/shakes" element={<Shakes />} />
